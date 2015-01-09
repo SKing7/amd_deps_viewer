@@ -1,0 +1,9 @@
+{
+  "name": "depviewer",
+  "version": "1.0.0",
+  "main": "",
+  "ignore": [],
+  "dependencies": {
+    "d3": "~3.5.3"
+  }
+}
