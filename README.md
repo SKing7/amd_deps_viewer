@@ -43,5 +43,5 @@ node index -g fe -d './m/public/js'
 ````
 node index -f autonavi -d './m/public/js'
 ````
-#### 测试
-http://imgur.com/yvxZTEe
+#### 运行示例
+![结果示例](http://i.imgur.com/yvxZTEe.jpg)
