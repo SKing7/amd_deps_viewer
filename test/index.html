@@ -8,7 +8,7 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <title></title>
     <style>
-
+    * { margin: 0; padding: 0;}
     .node {
       stroke: #fff;
       stroke-width: 1.5px;
@@ -28,6 +28,8 @@
     var width = document.documentElement.clientWidth || 1024,
         height = document.documentElement.clientHeight || 600;
 
+    width =  width - 50;
+    height = height - 50;
     var color = d3.scale.category20();
 
     var force = d3.layout.force()
