@@ -1,6 +1,7 @@
 # amd_deps_viewer
 
-展示针对amd模块声明方式的模块之间的依赖关系
+展示针对amd模块声明方式的模块之间的依赖关系。
+利用AST解析js文件，得到define和require的参数，分析，结合d3的图表进行展示。
 
 ````javascript
 + npm install
