@@ -29,8 +29,11 @@ node index -o './test/deps.json' -d './m/public/js'
 ------------------
 不同的图表会有不同的数据格式
 目前支持的有：
-[-g fe](http://bost.ocks.org/mike/fisheye/)
-[-g dfl](http://mbostock.github.com/d3/ex/force.html)
+
+[-g fe] (http://bost.ocks.org/mike/fisheye/)
+
+[-g dfl] (http://mbostock.github.com/d3/ex/force.html)
+
 ````
 node index -g fe -d './m/public/js'
 ````
@@ -39,7 +42,9 @@ node index -g fe -d './m/public/js'
 ------------------
 不同的使用场景会有对依赖关系进行加工
 目前支持
+
 [-f autonavi] 根据模块名进行自定义分组
+
 ````
 node index -f autonavi -d './m/public/js'
 ````
