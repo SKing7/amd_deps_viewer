@@ -1,6 +1,7 @@
 # amd_deps_viewer
 
-展示针对amd模块声明方式的模块之间的依赖关系
+展示针对amd模块声明方式的模块之间的依赖关系。
+利用AST解析js文件，得到define和require的参数，分析，结合d3的图表进行展示。
 
 ````javascript
 + npm install
@@ -29,8 +30,11 @@ node index -o './test/deps.json' -d './m/public/js'
 ------------------
 不同的图表会有不同的数据格式
 目前支持的有：
-[-g fe](http://bost.ocks.org/mike/fisheye/)
-[-g dfl](http://mbostock.github.com/d3/ex/force.html)
+
+[-g fe] (http://bost.ocks.org/mike/fisheye/)
+
+[-g dfl] (http://mbostock.github.com/d3/ex/force.html)
+
 ````
 node index -g fe -d './m/public/js'
 ````
@@ -39,7 +43,11 @@ node index -g fe -d './m/public/js'
 ------------------
 不同的使用场景会有对依赖关系进行加工
 目前支持
+
 [-f autonavi] 根据模块名进行自定义分组
+
 ````
 node index -f autonavi -d './m/public/js'
 ````
+#### 运行示例
+![结果示例](http://i.imgur.com/yvxZTEe.jpg)
